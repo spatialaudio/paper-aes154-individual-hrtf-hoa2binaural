@@ -5,9 +5,10 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{ulem}
 
 \def\NewL{\\\noindent\hspace*{5mm}}
-  
+
 \begin{document}
 \title{HRTF Individualised Mag-LS and COMPASS Ambisonics-To-Binaural Rendering:
 Overall Perceived Quality for Pre-Conditioned Listeners\\
@@ -270,7 +271,7 @@ Note that the same two non-individual HRTF sets were used for random HRTF option
 %
 \NewL A statistical evaluation in the mindset of frequentist inference was performed for multiple comparisons among dependent groups with \verb|rmmcppb()| \cite[cf. Ch.~8.3.3]{Wilcox2022}, available in the packages Hypothesize for Python and WRS for R.
 %
-This method uses a percentile bootstrap method (20\% trimmed means, significance level $\alpha = 0.05$ for each group comparison).
+This method uses a percentile bootstrap method (20\% trimmed means, significance level $\alpha = 0.05$ for each \sout{group comparison} \underline{panel} (correction: 2023-04-29)).
 %
 We used \verb|rmmcppb()| with default settings as of version 1.1.0 from the Python library \textit{Hypothesize}~\cite{Campopiano2020_Hypothesize}\footnote{\url{https://alcampopiano.github.io/hypothesize/}}.
 %
